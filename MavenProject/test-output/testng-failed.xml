@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases.TagsTestCases">
+        <methods>
+          <include name="verifytoast"/>
+          <include name="ClickonCreatecrossicon"/>
+          <include name="login"/>
+          <include name="VerifyDuplicatetoast"/>
+          <include name="VerifythepresenceDeleteTagsbutton"/>
+          <include name="VerifyCreateEnterAlphanumaricCharacters"/>
+          <include name="clickonDeleteTagCrossicon"/>
+          <include name="VerifyEditIcon"/>
+          <include name="clickonUpdatebutton"/>
+          <include name="VerifyEnterAlphanumaricCharacters"/>
+          <include name="VerifyCreateCancelbutton"/>
+          <include name="VerifyDeletetagpopuptext"/>
+          <include name="VerifyEditTagToastTitleandToasttext"/>
+          <include name="ClickonDeleteTagsButton"/>
+          <include name="VerifytheCreateTagPopup"/>
+          <include name="ClickonCreatecancelbutton"/>
+          <include name="VerifySearchLens"/>
+          <include name="DeleteTagsbuttonbackgroudcolour"/>
+          <include name="clickonsavebutton"/>
+          <include name="Clickoncancelbutton"/>
+          <include name="VerifytheCreateTagbutton"/>
+          <include name="VerifyDeleteTagIcon"/>
+          <include name="getSubmitbuttonbackgroudcolour"/>
+          <include name="Clickoncrossicon"/>
+          <include name="VerifytheSelectAlloption"/>
+          <include name="VerifywhennoTagsarecreated"/>
+          <include name="VerifytheEditTagPopup"/>
+          <include name="entertextDelete"/>
+          <include name="VerifyTagNamefieldacceptsSpaceswithintheword"/>
+          <include name="VerifyTagNamerequiredvalidationmessage"/>
+          <include name="VerifySearchField"/>
+          <include name="VerifythecreateTagnameEnterspecialchareacters"/>
+          <include name="VerifydelPlaceholdertext"/>
+          <include name="invalidtoast"/>
+          <include name="VerifyCreateTagNamefieldacceptsSpaceswithintheword"/>
+          <include name="VerifyPlaceholderText"/>
+          <include name="VerifytheMaxlengthrangeofTagNamefield"/>
+          <include name="VerifythePresenceofSubmitbutton"/>
+          <include name="getDeleteTagEmptyDataValidationMessage"/>
+          <include name="Verifytagsorder"/>
+          <include name="VerifyNomatchfoundText"/>
+          <include name="VerifythepresenceofUpdatebutton"/>
+          <include name="VerifyCreatePlaceholderText"/>
+          <include name="VerifyCancelbutton"/>
+          <include name="clickonSubmitTagButton"/>
+          <include name="VerifytheTagnameEnterspecialchareacters"/>
+          <include name="duplicateEditTagToastTitleandToasttext"/>
+          <include name="DeleteTagNameExceedTest"/>
+          <include name="VerifytheTagNameTrimmingfuctionality"/>
+          <include name="VerifythepresenceofSavebutton"/>
+          <include name="VerifytheMaxlengthrangeofCreateTagNamefield"/>
+          <include name="instatiateDrivers"/>
+          <include name="closeDriver"/>
+          <include name="VerifythecreateTagNameTrimmingfuctionality"/>
+          <include name="VerifyMousehoveroverstheTag"/>
+          <include name="toast"/>
+          <include name="testTagSearch"/>
+          <include name="VerifyCheckboxesagainstTags"/>
+        </methods>
+      </class> <!-- TestCases.TagsTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

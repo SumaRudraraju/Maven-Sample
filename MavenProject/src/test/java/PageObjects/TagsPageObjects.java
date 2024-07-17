@@ -43,20 +43,13 @@ public class TagsPageObjects {
     	
     	
 		WebElement grid = driver.findElement(By.xpath("//div[@class='row gap-10']"));
-        //List<WebElement> organizationCards = grid.findElements(By.xpath("//h5[text()='InfoTech']"));
-		WebElement search = driver.findElement(By.xpath("(//input[@placeholder='Search'])[1]"));
+        List<WebElement> organizationCards = grid.findElements(By.xpath("//h5[text()='Audi']"));
 		
-		search.sendKeys("Techno");
-		search.sendKeys(Keys.ENTER);
-		
-		 
-		Thread.sleep(10000);
-        List<WebElement> organizationCards = grid.findElements(By.xpath("(//h5[normalize-space()='Techno'])[1]"));
 	    for (WebElement card : organizationCards) {
-	    WebElement organizationNameElement = card.findElement(By.xpath("(//h5[normalize-space()='Techno'])[1]"));
+	    WebElement organizationNameElement = card.findElement(By.xpath("//h5[text()='Audi']"));
 	    //WebElement organizationNameElement = card.findElement(By.xpath("//h5[text()='InfoTech']"));
         String organizationName = organizationNameElement.getText();
-        if (organizationName.equals("Techno")) {
+        if (organizationName.equals("Audi")) {
 	            card.click();  
 	        }
 	    }
